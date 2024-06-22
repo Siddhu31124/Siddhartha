@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.background-home {
+    background-image: url("https://static.toiimg.com/photo/62033069.cms");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 40px;
+}
+
+.intro {
+    background-color: transparent;
+    height: 30vh;
+    width: 70vw;
+    color: white;
+    border-radius: 18px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.head {
+    font-family: Lobster;
+    font-size: 65px;
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+.bun {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: black;
+    font-weight: bold;
+    font-family: Roboto;
+    border-width: 0px;
+    color: white;
+}
+
+.bun1 {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: black;
+    font-weight: bold;
+    font-family: Roboto;
+    border-width: 0px;
+    color: white;
+    margin-left: 100px;
+}
+
+.background-details {
+    background-color: black;
+    background-size: cover;
+    padding: 25px;
+}
+
+.detail-container {
+    background-color: white;
+    border-radius: 20px;
+    margin: 35px;
+
+}
+
+.Image {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.image-heading {
+    font-size: 70px;
+    font-weight: 400;
+    font-family: Playfair Display;
+    padding: 20px;
+    font-style: italic;
+    color: grey;
+}
+
+.image-heading1 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: Playfair Display;
+    padding: 20px;
+    font-style: italic;
+    color: grey;
+}
+
+.location {
+    height: 8vh;
+    width: 10vw;
+}
+
+.location-text {
+    font-family: Roboto;
+    color: red;
+    font-weight: 700;
+    font-size: 35px;
+    color: red;
+    font-style: italic;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 100vw;
+    background-size: cover;
+    padding: 20px;
+}
+
+.detailed-view-card-container {
+    background-color: black;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.press {
+    height: 80px;
+    width: 150px;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #c5eced;
+}

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="tourism.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <div id="sectionhome">
+        <div class="background-home d-flex flex-column justify-content-end ">
+            <div class="intro text-center ">
+                <h1 class="head">Seven Wonders Of World</h1>
+                <button class="bun" onclick="display('sectiondetails')">View Details</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondetails">
+        <div class="background-details">
+            <div class="text-center">
+                <h1 class="head text-white p-4">*Wonder's Of The World*</h1>
+            </div>
+            <div class="detail-container d-flex flex-row">
+                <img src="https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids_3x2.jpg?w=718&h=479" class="Image">
+                <div class="text-center">
+                    <h1 class="image-heading">Giza Pyramids</h1>
+                    <a href="https://maps.app.goo.gl/BhpFtzyCXhRZbt9L6" target="_blank" class="location-text"><img src="https://img.freepik.com/premium-photo/location-pin-navigation-icon-3d-style-isolated-white-transparent-background-cutout_145713-23382.jpg?w=740 " class="location">Giza Necropolis, Egypt</a>
+                    <div class="text-center">
+                        <button class="bun1" onclick="display('sectiongiza')">More Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-container d-flex flex-row">
+                <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638892506/EducationHub/photos/the-great-wall-of-china.jpg" class="Image">
+                <div class="text-center">
+                    <h1 class="image-heading1">Great Wall of China</h1>
+                    <a href="https://maps.app.goo.gl/mSkNgXfs4NqX1AEK9" target="_blank" class="location-text"><img src="https://img.freepik.com/premium-photo/location-pin-navigation-icon-3d-style-isolated-white-transparent-background-cutout_145713-23382.jpg?w=740 " class="location"> Huairou, China</a>
+                    <div class="text-center">
+                        <button class="bun1" onclick="display('sectionwall')">More Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-container d-flex flex-row">
+                <img src="https://i.natgeofe.com/n/69e2cf60-ad59-4d20-bdd1-dc96f40ab4e8/petra-world-heritage-jordan_3x2.jpg?w=718&h=479" class="Image">
+                <div class="text-center">
+                    <h1 class="image-heading">Petra</h1>
+                    <a href="https://maps.app.goo.gl/GCX2whysf9Qbs4it6" target="_blank" class="location-text"><img src="https://img.freepik.com/premium-photo/location-pin-navigation-icon-3d-style-isolated-white-transparent-background-cutout_145713-23382.jpg?w=740 " class="location">Ma'an, Jordan</a>
+                    <div class="text-center">
+                        <button class="bun1" onclick="display('sectionpetra')">More Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-container d-flex flex-row">
+                <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1652340658/EducationHub/photos/colosseum.jpg" class="Image">
+                <div class="text-center">
+                    <h1 class="image-heading">Colosseum</h1>
+                    <a href="https://maps.app.goo.gl/4zpwTBYFWUvkoyUW7" target="_blank" class="location-text"><img src="https://img.freepik.com/premium-photo/location-pin-navigation-icon-3d-style-isolated-white-transparent-background-cutout_145713-23382.jpg?w=740 " class="location">Rome, Italy</a>
+                    <div class="text-center">
+                        <button class="bun1" onclick="display('sectioncolosseun')">More Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-container d-flex flex-row">
+                <img src="https://cdn.mos.cms.futurecdn.net/FNeL4VbEE9XDgKriEMi9Sj-1200-80.jpg" class="Image">
+                <div class="text-center">
+                    <h1 class="image-heading">Chichén Itzá</h1>
+                    <a href="https://maps.app.goo.gl/m11Z6wzsKWik71Lf6" target="_blank" class="location-text"><img src="https://img.freepik.com/premium-photo/location-pin-navigation-icon-3d-style-isolated-white-transparent-background-cutout_145713-23382.jpg?w=740 " class="location">Yucatán, Mexico</a>
+                    <div class="text-center">
+                        <button class="bun1" onclick="display('sectionchichen')">More Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-container d-flex flex-row">
+                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="Image">
+                <div class="text-center">
+                    <h1 class="image-heading">Taj Mahal</h1>
+                    <a href="https://maps.app.goo.gl/8vaqhaE4opgpJtn77" target="_blank" class="location-text"><img src="https://img.freepik.com/premium-photo/location-pin-navigation-icon-3d-style-isolated-white-transparent-background-cutout_145713-23382.jpg?w=740 " class="location">Agra, India</a>
+                    <div class="text-center">
+                        <button class="bun1" onclick="display('sectiontajmahal')">More Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-container d-flex flex-row">
+                <img src="https://i.natgeofe.com/n/819ea774-aa80-435e-af5a-ae56efee7ce3/92491_3x2.jpg" class="Image">
+                <div class="text-center">
+                    <h1 class="image-heading">Machu Picchu</h1>
+                    <a href="https://maps.app.goo.gl/EmLxNXQ79pBNaVey8" target="_blank" class="location-text"><img src="https://img.freepik.com/premium-photo/location-pin-navigation-icon-3d-style-isolated-white-transparent-background-cutout_145713-23382.jpg?w=740 " class="location">Cuzco Region, Peru</a>
+                    <div class="text-center">
+                        <button class="bun1" onclick="display('sectionmachu')">More Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="press" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiongiza">
+        <div class="detailed-view-bg-container">
+            <div class="detailed-view-card-container">
+                <div id="carouselExample1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExample1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExample1" data-slide-to="1"></li>
+                        <li data-target="#carouselExample1" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids_16x9.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://mlrhpz8jmuut.i.optimole.com/cb:Ie5o.50122/w:auto/h:auto/q:mauto/ig:avif/f:best/id:5b492f4b121cabc886019aa27deaa23a/https://www.egypttoursplus.com/how-much-to-visit-pyramids-in-egypt.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Great Pyramid of Giza</h1>
+                    <p class="detailed-view-card-description">
+                        The Great Pyramid of Giza[a] is the largest Egyptian pyramid and served as the tomb of pharaoh Khufu, who ruled during the Fourth Dynasty of the Old Kingdom. Built c. 2600 BC, over a period of about 27 years,[3] the pyramid is the oldest of the Seven Wonders of the Ancient World, and the only wonder that has remained largely intact. It is the most famous monument of the Giza pyramid complex, which is part of the UNESCO World Heritage Site "Memphis and its Necropolis".[4] It is situated at the northeastern end of the line of the three main pyramids at Giza.
+                        emperor’s love wrought in living stones.<br />Initially standing at 146.6 metres (481 feet), the Great Pyramid was the world's tallest human-made structure for more than 3,800 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the current 138.5 metres (454.4 ft); what is seen today is the underlying core structure. The base was measured to be about 230.3 metres (755.6 ft) square, giving a volume of roughly 2.6 million cubic metres (92 million cubic feet), which includes an internal hillock.[5] The dimensions of the pyramid were 280 royal cubits (146.7 m; 481.4 ft) high, a base length of 440 cubits (230.6 m; 756.4 ft), with a seked of 5+ palms (a slope of 51°50'40").
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/a_bKqM0_ZMo" allowfullscreen></iframe>
+                    </div>
+                    <p class="detailed-view-card-description">The Great Pyramid was built by quarrying an estimated 2.3 million large blocks, weighing 6 million tonnes in total. The majority of the stones are not uniform in size or shape, and are only roughly dressed.[6] The outside layers were bound together by mortar. Primarily local limestone from the Giza Plateau was used for its construction. Other blocks were imported by boat on the Nile: white limestone from Tura for the casing, and blocks of granite from Aswan, weighing up to 80 tonnes, for the "King's Chamber" structure.[7]<br />
+                        There are three known chambers inside of the Great Pyramid. The lowest was cut into the bedrock, upon which the pyramid was built, but remained unfinished. The so-called[8] Queen's Chamber and King's Chamber, which contain a granite sarcophagus, are above ground, within the pyramid structure. Hemiunu, Khufu's vizier, is believed by some to be the architect of the Great Pyramid.[9] Many varying scientific and alternative hypotheses attempt to explain the exact construction techniques.
+                        The funerary complex around the pyramid consisted of two mortuary temples connected by a causeway (one close to the pyramid and one near the Nile); tombs for the immediate family and court of Khufu, including three smaller pyramids for Khufu's wives; an even smaller "satellite pyramid"; and five buried solar barges...........<a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" target="_blank">More</a></p>
+                    <button class="press" onclick="display('sectiondetails')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionwall">
+        <div class="detailed-view-bg-container">
+            <div class="detailed-view-card-container">
+                <div id="carouselExample2" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExample2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExample2" data-slide-to="1"></li>
+                        <li data-target="#carouselExample2" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.britannica.com/82/94382-050-20CF23DB/Great-Wall-of-China-Beijing.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.travelandleisure.com/thmb/b2-ee45Q1DEjuzOa51XLhJ7Rfmc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/great-wall-china-tourists-GWOC0417-10bddbf0783644c386178f62117b2132.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static.vecteezy.com/system/resources/previews/033/863/522/large_2x/great-wall-of-china-at-sunrise-panoramic-view-of-china-the-great-wall-of-china-in-the-mist-lying-long-surrealist-view-from-dronegraphy-8k-ai-generated-free-photo.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Great Wall of China</h1>
+                    <p class="detailed-view-card-description">
+                        The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng, literally "ten thousand li long wall") is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC,[4] with selective stretches later joined by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.[5] Later on, many successive dynasties built and maintained multiple stretches of border walls. The best-known sections of the wall were built by the Ming dynasty (1368–1644).<br />
+                        Apart from defense, other purposes of the Great Wall have included border controls, allowing the imposition of duties on goods transported along the Silk Road, regulation or encouragement of trade and the control of immigration and emigration.[6] Furthermore, the defensive characteristics of the Great Wall were enhanced by the construction of watchtowers, troop barracks, garrison stations, signaling capabilities through the means of smoke or fire, and the fact that the path of the Great Wall also served as a transportation corridor
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BUFLNJBj-KY" allowfullscreen></iframe>
+                    </div>
+                    <p class="detailed-view-card-description">The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Liaodong in the east to Lop Lake in the west, from the present-day Sino–Russian border in the north to Tao River (Taohe) in the south; along an arc that roughly delineates the edge of the Mongolian steppe; spanning 21,196.18 km (13,170.70 mi) in total.[7][3] Today, the defensive system of the Great Wall is generally recognized as one of the most impressive architectural feats in history.[8]<br />
+                        In Chinese histories, the term "Long Wall(s)" (t 長城, s 长城, Chángchéng) appears in Sima Qian's Records of the Grand Historian, where it referred both to the separate great walls built between and north of the Warring States and to the more unified construction of the First Emperor.[9] The Chinese character 城, meaning city or fortress, is a phono-semantic compound of the "earth" radical 土 and phonetic 成, whose Old Chinese pronunciation has been reconstructed as *deŋ.[10] It originally referred to the rampart which surrounded traditional Chinese cities and was used by extension for these walls around their respective states; today, however, it is much more often the Chinese word for "city".[11]<br />
+                        The longer Chinese name "Ten-Thousand Mile Long Wall" (t 萬里長城, s 万里长城, Wànlǐ Chángchéng) came from Sima Qian's description of it in the Records, though he did not name the walls as such. The AD 493 Book of Song quotes the frontier general Tan Daoji referring to "the long wall of 10,000 miles", closer to the modern name, but the name rarely features in pre-modern times otherwise.[12] The traditional Chinese mile (里, lǐ) was an often irregular distance that was intended to show the length of a standard village and varied with terrain but was usually standardized at distances around a third of an English mile (540 m).[13] However, this use of "ten-thousand" (wàn) is figurative in a similar manner to the Greek and English myriad and simply means "innumerable" or "immeasurable".[14]...........<a href="https://en.wikipedia.org/wiki/Great_Wall_of_China" target="_blank">More</a></p>
+                    <button class="press" onclick="display('sectiondetails')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionpetra">
+        <div class="detailed-view-bg-container">
+            <div class="detailed-view-card-container">
+                <div id="carouselExample3" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExample3" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExample3" data-slide-to="1"></li>
+                        <li data-target="#carouselExample3" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/294000/294218-Petra.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQo1rKZ9EuBHccoho7FVhcvDx5bwMCeLpXNg&usqp=CAU" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Great Wall of China</h1>
+                    <p class="detailed-view-card-description">
+                        Petra (Arabic: ٱلْبَتْراء, romanized: Al-Batrāʾ; Greek: Πέτρα, "Rock"), originally known to its inhabitants as Raqmu or Raqēmō[3][4] (Nabataean: 𐢛𐢚𐢒‎ or 𐢛𐢚𐢓𐢈‎, *Raqēmō), is a historic and archaeological city in southern Jordan. Famous for its rock-cut architecture and water conduit system, Petra is also called the "Rose City" because of the colour of the sandstone[5] from which it is carved;[6] it was famously called "a rose-red city half as old as time" in a poem of 1845 by John Burgon. It is adjacent to the mountain of Jabal Al-Madbah, in a basin surrounded by mountains forming the eastern flank of the Arabah valley running from the Dead Sea to the Gulf of Aqaba.[7] Access to the city is through a famously picturesque 1.2-kilometre-long (3⁄4 mi) gorge called the Siq, which leads directly to the Khazneh.<br />
+                        The area around Petra has been inhabited from as early as 7000 BC,[8] and the Nabataeans might have settled in what would become the capital city of their kingdom as early as the 4th century BC.[9] Archaeological work has only discovered evidence of Nabataean presence dating back to the second century BC,[10] by which time Petra had become their capital.[8] The Nabataeans were nomadic Arabs who invested in Petra's proximity to the incense trade routes by establishing it as a major regional trading hub.[8][11]
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SZ5JjLdzQ1o" allowfullscreen></iframe>
+                    </div>
+                    <p class="detailed-view-card-description">The trading business gained the Nabataeans considerable revenue and Petra became the focus of their wealth. Unlike their enemies, the Nabataeans were accustomed to living in the barren deserts and were able to repel attacks by taking advantage of the area's mountainous terrain. They were particularly skillful in harvesting rainwater, agriculture, and stone carving. Petra flourished in the 1st century AD, when its Al-Khazneh structure, possibly the mausoleum of Nabataean king Aretas IV, was constructed, and its population peaked at an estimated 20,000 inhabitants.[12] They developed a complex system of cisterns, channels, and dams to collect and store rainwater, allowing them to thrive in the arid desert environment. Most of the famous rock-cut buildings, which are mainly tombs, date from this and the following period. Much less remains of the free-standing buildings of the city.<br />
+                        Although the Nabataean kingdom became a client state of the Roman Empire in the first century BC, it was only in 106 AD that it lost its independence. Petra fell to the Romans, who annexed Nabataea and renamed it as Arabia Petraea.[13] Petra's importance declined as sea trade routes emerged, and after an earthquake in 363 destroyed many structures. In the Byzantine era, several Christian churches were built, but the city continued to decline and, by the early Islamic era, it was abandoned except for a handful of nomads. It remained unknown to the western world until 1812, when Swiss traveller Johann Ludwig Burckhardt rediscovered it.[14]<br />
+                        It has been a UNESCO World Heritage Site since 1985. UNESCO has described Petra as "one of the most precious cultural properties of man's cultural heritage".[15] In 2007, Petra was voted one of the New 7 Wonders of the World.[16] Petra is a symbol of Jordan, as well as Jordan's most-visited tourist attraction. Tourist numbers peaked at 1.1 million in 2019, marking the first time that the figure rose above the 1 million mark.[17] Tourism in the historical city was hit hard by the COVID-19 pandemic, but soon after started to pick up again, reaching 905,000 visitors in 2022.[18]...........<a href="https://en.wikipedia.org/wiki/Petra" target="_blank">More</a></p>
+                    <button class="press" onclick="display('sectiondetails')">Back</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectioncolosseum">
+        <div class="detailed-view-bg-container">
+            <div class="detailed-view-card-container">
+                <div id="carouselExample4" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExample4" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExample4" data-slide-to="1"></li>
+                        <li data-target="#carouselExample4" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://th-thumbnailer.cdn-si-edu.com/KIWiyaq9epRMUUk-2EcGt5fe-74=/1072x720/filters:no_upscale():focal(2183x1356:2184x1357)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/41/4f/414f4c9f-b197-4778-9dc6-2a0105cc2908/colosseum_in_rome-april_2007-1-_copie_2b.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.britannica.com/03/98303-050-C8036C9D/Interior-Colosseum-Rome.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.architecturaldigest.com/photos/55f9e1e89bff6eeb3a241b96/4:3/w_544,h_408,c_limit/dam-images-daily-2015-08-roman-colosseum-roman-colosseum-italy-545.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample4" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample4" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Colosseum</h1>
+                    <p class="detailed-view-card-description">
+                        The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72[1] and was completed in AD 80 under his successor and heir, Titus (r. 79–81).[2] Further modifications were made during the reign of Domitian (r. 81–96).[3] The three emperors who were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).<br />
+                        The Colosseum is built of travertine limestone, tuff (volcanic rock), and brick-faced concrete. It could hold an estimated 50,000 to 80,000 spectators at various points in its history,[4][5] having an average audience of some 65,000;[6] it was used for gladiatorial contests and public spectacles including animal hunts, executions, re-enactments of famous battles, and dramas based on Roman mythology, and briefly mock sea battles. The building ceased to be used for entertainment in the early medieval era. It was later reused for such purposes as housing, workshops, quarters for a religious order, a fortress, a quarry, and a Christian shrine.
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C3GN8YRoTjc" allowfullscreen></iframe>
+                    </div>
+                    <p class="detailed-view-card-description">TAlthough substantially ruined by earthquakes and stone robbers taking spolia, the Colosseum is still a renowned symbol of Imperial Rome and was listed as one of the New 7 Wonders of the World.[7] It is one of Rome's most popular tourist attractions and has links to the Catholic Church, as each Good Friday the Pope leads a torchlit "Way of the Cross" procession that starts in the area around the Colosseum.[8] The Colosseum is depicted on the Italian version of the 5 euro cent coin.]<br />
+                        Originally, the building's Latin name was simply amphitheatrum, 'amphitheatre'.[9] Though the modern name Flavian Amphitheatre (Latin: Amphitheatrum Flavium) is often used, there is no evidence it was used in classical antiquity.[9] This name refers to the patronage of the Flavian dynasty, during whose reigns the building was constructed, but the structure is better known as the Colosseum.[9] In antiquity, Romans may have referred to the Colosseum by the unofficial name Amphitheatrum Caesareum (with Caesareum an adjective pertaining to the title Caesar), but this name may have been strictly poetic[10][11] as it was not exclusive to the Colosseum; Vespasian and Titus, builders of the Colosseum, also constructed a Flavian Amphitheatre in Puteoli (modern Pozzuoli).[12]<br />
+                        The spelling was sometimes altered in Medieval Latin: coloseum and coliseum are attested from the 12th and 14th centuries respectively.[9] In the 12th century, the structure was recorded as the amphitheatrum colisei, 'Amphitheatre of the Colossus'.[9] In the High Middle Ages, the Flavian amphitheatre is attested as the late 13th-century Old French: colosé, and in Middle French as: colisée by the early 16th century, by which time the word could be applied to any amphitheatre.[9] From Middle French: colisée derived the Middle English: colisee, in use by the middle of the 15th century and employed by John Capgrave in his Solace of Pilgrims, in which he remarked: Middle English: collise eke is a meruelous place … þe moost part of it stant at þis day.[14] An English translation by John Bourchier, 2nd Baron Berners, of Antonio de Guevara's biography of Marcus Aurelius (r. 161–180) in about 1533 referred to Middle English: this Emperour, beynge with the Senate at Collisee ....[14] Similarly, the Italian: colosseo, or coliseo, are attested as referring first to the amphitheatre in Rome, and then to any amphitheatre (as Italian: culiseo in 1367).[14][9] By 1460, an equivalent existed in Catalan: coliseu; by 1495 had appeared the Spanish: coliseo, and by 1548 the Portuguese: coliseu.[9]...........<a href="https://en.wikipedia.org/wiki/Colosseum" target="_blank">More</a></p>
+                    <button class="press" onclick="display('sectiondetails')">Back</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionchichen">
+
+        <body>
+            <div class="detailed-view-bg-container">
+                <div class="detailed-view-card-container">
+                    <div id="carouselExample5" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExample5" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExample5" data-slide-to="1"></li>
+                            <li data-target="#carouselExample5" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://media.istockphoto.com/id/481272289/photo/el-castillo-of-chichen-itza-at-sunset-mexico.jpg?s=612x612&w=0&k=20&c=vp5jlz0SdiCl4ow_xRUPDgZ-09TdRdWuzE4NW7v130c=" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.vallarta-adventures.com/sites/default/files/2021-05/CHichen10.jpeg" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/d2/2d/e7/hotel-chichen-itza.jpg?w=700&h=-1&s=1" class="d-block w-100" alt="..." />
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExample5" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExample5" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="detailed-view-card-text-container">
+                        <h1 class="detailed-view-card-heading">Chichén Itzá</h1>
+                        <p class="detailed-view-card-description">
+                            Chichén Itzá[nb 1] (often spelled Chichen Itza in English and traditional Yucatec Maya) was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán State, Mexico.[1]
+
+                            Chichén Itzá was a major focal point in the Northern Maya Lowlands from the Late Classic (c. AD 600–900) through the Terminal Classic (c. AD 800–900) and into the early portion of the Postclassic period (c. AD 900–1200). The site exhibits a multitude of architectural styles, reminiscent of styles seen in central Mexico and of the Puuc and Chenes styles of the Northern Maya lowlands. The presence of central Mexican styles was once thought to have been representative of direct migration or even conquest from central Mexico, but most contemporary interpretations view the presence of these non-Maya styles more as the result of cultural diffusion.<br />
+                            Chichén Itzá was one of the largest Maya cities and it was likely to have been one of the mythical great cities, or Tollans, referred to in later Mesoamerican literature.[2] The city may have had the most diverse population in the Maya world, a factor that could have contributed to the variety of architectural styles at the site.[3]
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qif9uq0rMrs" allowfullscreen></iframe>
+                        </div>
+                        <p class="detailed-view-card-description">The ruins of Chichén Itzá are federal property, and the site's stewardship is maintained by Mexico's Instituto Nacional de Antropología e Historia (National Institute of Anthropology and History). The land under the monuments had been privately owned until 29 March 2010, when it was purchased by the state of Yucatán.[nb 2]
+
+                            Chichén Itzá is one of the most visited archeological sites in Mexico with over 2.6 million tourists in 2017.[4]<br />
+                            The Maya name "Chichen Itza" means "At the mouth of the well of the Itza." This derives from chi', meaning "mouth" or "edge", and chʼen or chʼeʼen, meaning "well". Itzá is the name of an ethnic-lineage group that gained political and economic dominance of the northern peninsula. One possible translation for Itza is "enchanter (or enchantment) of the water,"[5] from its (itz), "sorcerer", and ha, "water".[6]
+
+                            The name is spelled Chichén Itzá in Spanish, and the accents are sometimes maintained in other languages to show that both parts of the name are stressed on their final syllable. Other references prefer the modern Maya orthography, Chichʼen Itzaʼ (pronounced [tʃitʃʼen itsáʔ]). This form preserves the phonemic distinction between chʼ and ch, since the base word chʼeʼen (which, however, is not stressed in Maya) begins with a postalveolar ejective affricate consonant. Traditional Yucatec Maya spelling in Latin letters, used from the 16th through mid 20th century, spelled it as "Chichen Itza" (as accents on the last syllable are usual for the language, they are not indicated as they are in Spanish). The word "Itzaʼ" has a high tone on the "a" followed by a glottal stop (indicated by the apostrophe).[citation needed]<br />
+                            Evidence in the Chilam Balam books indicates another, earlier name for this city prior to the arrival of the Itza hegemony in northern Yucatán. While most sources agree the first word means seven, there is considerable debate as to the correct translation of the rest. This earlier name is difficult to define because of the absence of a single standard of orthography, but it is represented variously as Uuc Yabnal ("Seven Great House"),[7] Uuc Hab Nal ("Seven Bushy Places"),[8] Uucyabnal ("Seven Great Rulers")[2] or Uc Abnal ("Seven Lines of Abnal").[nb 3] This name, dating to the Late Classic Period, is recorded both in the book of Chilam Balam de Chumayel and in hieroglyphic texts in the ruins...........<a href="https://en.wikipedia.org/wiki/Chichen_Itza" target="_blank">More</a></p>
+                        <button class="press" onclick="display('sectiondetails')">Back</button>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+    <div id="sectiontajmahal">
+        <div class="detailed-view-bg-container">
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Taj Mahal</h1>
+                    <p class="detailed-view-card-description">
+                        The Taj Mahal is considered to be the greatest architectural
+                        achievement in the whole range of Indo-Islamic architecture. Its
+                        recognised architectonic beauty has a rhythmic combination of solids
+                        and voids, concave and convex and light shadow; such as arches and
+                        domes further increases the aesthetic aspect. Not a piece of
+                        architecture, as other buildings are, but the proud passions of an
+                        emperor’s love wrought in living stones.<br />The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/; lit. 'Crown of the Palace')[4][5][6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.<br />
+                        Construction of the mausoleum was essentially completed in 1643, but work continued on other phases of the project for another 10 years. The first ceremony held at the mausoleum was an observance by Shah Jahan, on 6 February 1643, of the 12th anniversary of the death of Mumtaz Mahal. The mausoleum was opened at that time to thousands of mourners.[7][8]
+                    </p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49HTIoCccDY?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="detailed-view-card-description">The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around ₹32 million, which in 2023 would be approximately ₹35 billion (US$498 million).[9] The construction project employed some 20,000 artisans under the guidance of a board of architects led by Ustad Ahmad Lahori, the emperor's court architect. Various types of symbolism have been employed in the Taj to reflect natural beauty and divinity.<br />
+                        The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage". It is regarded by many as the best example of Mughal architecture and a symbol of India's rich history. The Taj Mahal attracts 7-8 million visitors a year,[10] and in 2007 it was declared a winner of the New 7 Wonders of the World (2000–2007) initiative...........<a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">More</a></p>
+                    <button class="press" onclick="display('sectiondetails')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmachu">
+        <div class="detailed-view-bg-container">
+            <div class="detailed-view-card-container">
+                <div id="carouselExample6" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExample6" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExample6" data-slide-to="1"></li>
+                        <li data-target="#carouselExample6" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2014/05/28/50/Machu-Picchu-Mountain.rend.hgtvcom.1280.1280.suffix/1491584261034.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/220329015758-machu-picchu-file-11012020.jpg?c=original" class="d-block w-100" alt="..." />
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://lp-cms-production.imgix.net/2020-10/500pxRF_16641625.jpg" class="d-block w-100" alt="..." />
+
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample6" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample6" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Machu Picchu</h1>
+                    <p class="detailed-view-card-description">
+                        Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge.[2][3] Often referred to as the "Lost City of the Incas", it is the most familiar icon of the Inca Empire. It is located in the Machupicchu District within Urubamba Province[4] above the Sacred Valley, which is 80 kilometers (50 mi) northwest of Cusco. The Urubamba River flows past it, cutting through the Cordillera and creating a canyon with a tropical mountain climate.[5] In reference to the site's name, for most English or Spanish speakers, the first 'c' in Picchu is silent. In English, the name is pronounced /ˌmɑːtʃuː ˈpiːtʃuː/ MAH-choo PEE-choo[6][7] or /ˌmætʃuː ˈpiːktʃuː/ MATCH-oo PEAK-choo,[7][8] in Spanish as [ˈmatʃu ˈpitʃu] or [ˈmatʃu ˈpiɣtʃu],[9] and in Quechua (Machu Pikchu)[10] as [ˈmatʃʊ ˈpɪktʃʊ].<br />
+                        The Inca civilization had no written language and following the first encounter by the Spanish soldier Baltasar Ocampo, no Europeans are recorded to have visited the site from the late 16th century until the 19th century. As far as historical knowledge extends, there are no existing written records detailing the site during its period of active use. The names of the buildings, their supposed uses, and their inhabitants, are the product of modern archaeologists based on physical evidence, including tombs at the site. Machu Picchu was built in the classical Inca style, with polished dry-stone walls. Its three primary structures are the Intihuatana, the Temple of the Sun, and the Temple of the Three Windows. Most of the outlying buildings have been reconstructed in order to give visitors a better idea of how they originally appeared.[11] By 1976, 30 percent of Machu Picchu had been restored[11] and restoration continues.[12] Most recent archaeologists believe that Machu Picchu was constructed as an estate for the Inca emperor Pachacuti (1438–1472). The Incas built the estate around 1450 but abandoned it a century later, at the time of the Spanish conquest. According to the new AMS radiocarbon dating, it was occupied from c. 1420–1532.[13] Historical research published in 2022 claims that the site was probably called Huayna Picchu by the Inca people themselves, as it exists on the smaller peak of the same name.[14][15]
+
+                        Machu Picchu was declared a Peruvian Historic Sanctuary in 1982 and a UNESCO World Heritage Site in 1983.[3] In 2007, Machu Picchu was voted one of the New Seven Wonders of the World in a worldwide internet poll.[16]
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cnMa-Sm9H4k" allowfullscreen></iframe>
+                    </div>
+                    <p class="detailed-view-card-description">In the Quechua language, machu means "old" or "old person", while picchu means "pyramid; pointed, multi-sided solid; cone," though it may also refer to a "portion of coca that is chewed."[17] Thus the name of the site is sometimes interpreted as "old mountain".[18] The site is on a narrow saddle between two mountain peaks: Machu Picchu and Huayna Picchu.[19]<br />
+                        The Maya name "Chichen Itza" means "At the mouth of the well of the Itza." This derives from chi', meaning "mouth" or "edge", and chʼen or chʼeʼen, meaning "well". Itzá is the name of an ethnic-lineage group that gained political and economic dominance of the northern peninsula. One possible translation for Itza is "enchanter (or enchantment) of the water,"[5] from its (itz), "sorcerer", and ha, "water".[6]
+                        A study published in 2021 in Ñawpa Pacha: Journal of the Institute of Andean Studies suggests that, in the Quechua language, the abandoned Inca site was called "Huayna Picchu", after the smaller peak at the site, or perhaps, just "Picchu". Huayna means "young" in the Quechua language. The research documents that, starting in 1911 with the publications of American historian and explorer Hiram Bingham, the name Machu Picchu became associated with the ruins.[14][20] Evidence of references by native Quechua speakers dating to their reports to the Aziz's island, early maps, and even discussions with Bingham, is cited in the new research into historical records regarding an apparently arbitrary selection of the name Bingham associated with the site—that differed from the traditional name.[21] The name given to the abandoned settlement by its builders has not been determined by researchers............<a href="https://en.wikipedia.org/wiki/Machu_Picchu" target="_blank">More</a></p>
+                    <button class="press" onclick="display('sectiondetails')">Back</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
